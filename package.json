@@ -1,0 +1,51 @@
+{
+    "name": "pulito-fractal-theme",
+    "version": "1.0.0",
+    "description": "Fractal Theme, based on Mandelbrot.",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack --mode development --watch",
+        "build": "webpack --mode production"
+    },
+    "keywords": [],
+    "author": "Luke Hill",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "^7.7.2",
+        "@babel/polyfill": "^7.7.0",
+        "@babel/preset-env": "^7.7.1",
+        "@frctl/fractal": "^1.2.0",
+        "@frctl/mandelbrot": "^1.2.1",
+        "autoprefixer": "^9.7.2",
+        "babel-eslint": "^10.0.3",
+        "babel-loader": "^8.0.6",
+        "copy-webpack-plugin": "^5.0.5",
+        "eslint-loader": "^3.0.2",
+        "fs": "^0.0.1-security",
+        "mutationobserver-shim": "^0.3.3",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss-flexbugs-fixes": "^4.1.0",
+        "postcss-preset-env": "^6.7.0",
+        "stylelint": "^12.0.0",
+        "stylelint-config-standard": "^19.0.0",
+        "stylelint-order": "^3.1.1",
+        "stylelint-webpack-plugin": "^1.1.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    },
+    "devDependencies": {
+        "css-loader": "^3.2.0",
+        "cssnano": "^4.1.10",
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "file-loader": "^4.3.0",
+        "mini-css-extract-plugin": "^0.8.0",
+        "node-sass": "^4.13.0",
+        "postcss-loader": "^3.0.0",
+        "prettier-eslint": "^9.0.1",
+        "sass-loader": "^8.0.0",
+        "webpack-fix-style-only-entries": "^0.4.0"
+    }
+}

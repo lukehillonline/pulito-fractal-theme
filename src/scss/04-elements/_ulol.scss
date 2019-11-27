@@ -1,0 +1,10 @@
+ul,
+ol {
+    @extend .elementreset;
+
+    padding-left: rem(40);
+}
+
+li {
+    @extend .elementreset;
+}

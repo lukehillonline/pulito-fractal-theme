@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @extend .elementreset;
+    @include font-heading('regular');
+
+    color: inherit;
+    line-height: $line-height-heading;
+}
+
+h1,
+.heading00 {
+    @extend %heading00;
+}
+
+h2,
+.heading01 {
+    @extend %heading01;
+}
+
+h3,
+.heading02 {
+    @extend %heading02;
+}
+
+h4,
+.heading03 {
+    @extend %heading03;
+}
+
+h5,
+.heading04 {
+    @extend %heading04;
+}
+
+h6,
+.heading05 {
+    @extend %heading05;
+}

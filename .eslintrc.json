@@ -1,0 +1,38 @@
+{
+    "extends": ["airbnb-base"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "rules": {
+        "padded-blocks": 0,
+        "linebreak-style": ["warn", "windows"],
+        "no-console": 0,
+        "no-plusplus": 0,
+        "arrow-body-style": 0,
+        "quote-props": ["error", "consistent-as-needed"],
+        "comma-dangle": ["error", "only-multiline"],
+        "max-len": 0,
+        "indent": ["error", 4],
+        "no-new": 0,
+        "quotes": ["error", "single", { "avoidEscape": true }],
+        "object-curly-newline": ["error", {
+            "ObjectExpression": { "multiline": true, "consistent": true },
+            "ObjectPattern": { "multiline": true, "consistent": true },
+            "ImportDeclaration": { "multiline": true, "consistent": true },
+            "ExportDeclaration": { "multiline": true, "consistent": true }
+          }]
+    },
+    "env": {
+        "jest": true,
+        "browser": true
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["src"],
+                "extensions": [".js"]
+            }
+        }
+    }
+}
