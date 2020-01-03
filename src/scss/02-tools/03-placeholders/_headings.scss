@@ -5,7 +5,7 @@
     letter-spacing: -0.4px;
     line-height: rem(56);
 
-    @include breakpoint(medium) {
+    @include breakpoint(bold) {
         font-size: rem(60);
         letter-spacing: -0.8px;
         line-height: rem(66);
@@ -19,7 +19,7 @@
     letter-spacing: -0.4px;
     line-height: rem(44);
 
-    @include breakpoint(medium) {
+    @include breakpoint(bold) {
         font-size: rem(48);
         letter-spacing: -0.8px;
         line-height: rem(56);
@@ -33,7 +33,7 @@
     letter-spacing: -0.4px;
     line-height: rem(36);
 
-    @include breakpoint(medium) {
+    @include breakpoint(bold) {
         font-size: rem(30);
         letter-spacing: -0.4px;
         line-height: rem(38);
@@ -47,7 +47,7 @@
     letter-spacing: -0.4px;
     line-height: rem(24);
 
-    @include breakpoint(medium) {
+    @include breakpoint(bold) {
         font-size: rem(24);
         letter-spacing: -0.4px;
         line-height: rem(30);
@@ -61,7 +61,7 @@
     letter-spacing: -0.4px;
     line-height: rem(24);
 
-    @include breakpoint(medium) {
+    @include breakpoint(bold) {
         font-size: rem(20);
         letter-spacing: -0.4px;
         line-height: rem(28);
@@ -75,7 +75,7 @@
     letter-spacing: -0.4px;
     line-height: rem(22);
 
-    @include breakpoint(medium) {
+    @include breakpoint(bold) {
         font-size: rem(18);
         letter-spacing: -0.4px;
         line-height: rem(24);
