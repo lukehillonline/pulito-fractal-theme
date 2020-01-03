@@ -1,5 +1,5 @@
 body {
     @extend .elementreset;
     @extend %p--body;
-    @include font-heading('regular');
+    @include font-body('regular');
 }
